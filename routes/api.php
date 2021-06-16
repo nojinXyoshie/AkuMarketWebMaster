@@ -20,3 +20,4 @@ use Illuminate\Support\Facades\Route;
 // });
 
 Route::post('login','api\UserController@login');
+Route::post('register','api\UserController@register');
